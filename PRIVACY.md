@@ -2,25 +2,26 @@
 
 **Myshcat's Services (Discord bot)** — last updated 2026-09-26
 
-This bot provides a middleman escrow service, a build/farm-order service, and a support
-ticket system for a DonutSMP Discord community. This page explains what data it collects,
+This bot provides a middleman escrow service and a build/farm-order service for a DonutSMP
+Discord community, plus a private staff dashboard. This page explains what data it collects,
 why, and how to control or remove yours.
 
 ## What we collect
 
 - **Discord identity:** your user ID, username, display name and avatar — used to show who's
-  who in trades, orders, tickets and the staff dashboard.
+  who in trades, orders and the staff dashboard.
 - **Trade and order records:** the value of a trade, who was involved, what was ordered,
   prices, refunds and payout history. Kept indefinitely for accounting and dispute
   resolution, the same as any transaction record a business keeps.
-- **Ticket message content:** only inside tickets the bot itself opens (middleman trades,
-  build orders, support requests) and the staff vouch channel — never general server chat.
-  Kept for 30 days, encrypted at rest, then automatically deleted. You can opt out of future
-  capture, or have your existing messages scrubbed, at any time — see below.
+- **Ticket message content:** only inside the private channels the bot itself opens for a
+  middleman trade or a build order — never general server chat. Kept for 30 days, encrypted
+  at rest, then automatically deleted. You can opt out of future capture, or have your
+  existing messages scrubbed, at any time — see below.
 - **Vouch records:** who vouched for whom, a star rating and an optional written reason, used
   for the public staff leaderboard.
 - **Staff actions:** an audit log of moderation/staff actions taken through the bot or
-  dashboard (who did what, when), for accountability.
+  dashboard (who did what, when), for accountability. This includes when a middleman is
+  automatically removed from a trade for not responding in time (see Terms of Service).
 
 ## Who else sees it
 

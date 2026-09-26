@@ -5,9 +5,9 @@ summary of how the service actually works, not a substitute for formal legal adv
 
 ## What this is
 
-A Discord bot providing a middleman escrow service, a build/farm order service, and a
-support ticket system for a DonutSMP Minecraft community. By using its commands or services
-you agree to these terms and to Discord's own [Terms of Service](https://discord.com/terms).
+A Discord bot providing a middleman escrow service and a build/farm order service for a
+DonutSMP Minecraft community. By using its commands or services you agree to these terms
+and to Discord's own [Terms of Service](https://discord.com/terms).
 
 ## Middleman service
 
@@ -18,6 +18,9 @@ you agree to these terms and to Discord's own [Terms of Service](https://discord
   cannot promise a specific outcome to every dispute.
 - A trade only completes when all three parties (both traders and the assigned staff member)
   confirm it in the ticket.
+- **Response window:** once a staff member claims a trade, they must post in the ticket
+  within 10 minutes. If they don't, the claim is automatically released and the trade goes
+  back to the queue for another staff member to pick up.
 
 ## Build/farm service
 
@@ -29,11 +32,6 @@ you agree to these terms and to Discord's own [Terms of Service](https://discord
   order.
 - Builders are paid their listed cut 48 hours after delivery, subject to strikes/void
   conditions described in-server.
-
-## Support tickets
-
-Tickets are handled by server staff on a best-effort basis. Misuse (spam tickets, abuse of
-staff) may result in ticket or server access being restricted.
 
 ## Acceptable use
 
